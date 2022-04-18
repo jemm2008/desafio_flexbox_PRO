@@ -1,0 +1,138 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+p { margin: 0%;
+}
+img {
+    border: 3px solid #E8EBE4;
+    border-radius: 50%;
+}
+body {
+    display: flex;
+} 
+#container_nav{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    width: 25.1vw;
+    border: 1px solid #BEC1BB;
+}
+
+#active_user_block {
+    height: 76px;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.active_user_content {
+    display: flex;
+    align-items: center;
+}
+.active_user_content img {
+    height: 48px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.active_user_content p:first-child {
+    font-size: 18px;
+    font-family: roboto;
+}
+.active_user_content p:last-child {
+    color: #979797;
+    font-size: 12px;
+}
+.fa-solid {
+    color: #979797;
+    font-size: 24px;
+}
+.fa-bars {
+    padding-right: 25px;
+    padding-left: 16px;
+}
+
+#new_chat_button {
+    height: 156px;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border: 0px;
+    color: white;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.btn_normal_bg {
+    background-color: #A491D2;
+}
+
+.btn_hover_bg {
+    background-color: #CDC3E6;
+}
+
+.users_block {
+    height: 92px;
+    border-bottom: 1px solid #BEC1BB;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.users_block img {
+    height: 62px;
+    margin-left: 30px;
+    margin-right: 18px;
+    border-radius: 50%;
+}
+.users_block p:first-child {
+    font-family: roboto;
+    font-size: 18px;
+}
+
+#section_content {
+    width: 74.9vw;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_content img {
+    height: 322px; 
+    width: 322px;
+    border: 0px;
+    border-radius: 0%;
+}
+
+#section_content p {
+    font-size: 24px;
+}
+
+#section_content p:first-of-type {
+    font-family: roboto;
+    font-size: 56px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+}
+
+span {
+    font-family: roboto;
+    font-weight: bold;
+}
+
+
+.rrrr {
+    border: 1px solid red;
+}
+
+.gggg {
+    border: 1px solid green; 
+}
